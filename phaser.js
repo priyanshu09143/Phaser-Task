@@ -28,7 +28,7 @@ gameScene.create = function () {
         let audio = new Audio('assets/bounce.mp3');
         btn.disabled = true;
         let startTime = Date.now();
-        let counterValue = Phaser.Math.Between(6, 15);
+        let counterValue = Phaser.Math.Between(30, 120);
         counterText.setText('Counter: ' + counterValue);
         let newTime = startTime + counterValue * 1000;
         let charset = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
