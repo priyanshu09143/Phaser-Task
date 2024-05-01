@@ -45,7 +45,7 @@ gameScene.create = function () {
             }
         }, 1000);
         
-        ball.setVelocity(200, 200);
+        ball.setVelocity(400, 400);
         ball.setBounce(1);
 
         // Start counter
